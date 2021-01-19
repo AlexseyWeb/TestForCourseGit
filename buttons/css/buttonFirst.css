@@ -15,18 +15,20 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-top: 5rem;
     text-decoration: none;
     color: rgb(245, 241, 241);
     background:rebeccapurple;
     border-radius: 10px;
-    width: 20vw;
-    height: 20vh;
+    height:20vh;
     font-size: 2rem;
     transition: all 0.3s ease-in-out;
     animation: light 3.5s infinite alternate;
 
+}
+
+a:hover {
+    background: green;
+    transition: background 1.5s ease-in-out;
 }
 
 
