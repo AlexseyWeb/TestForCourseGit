@@ -1,0 +1,49 @@
+:root{
+    box-sizing: border-box;
+
+}
+
+*,::before,::after{
+    box-sizing: inherit;
+}
+
+body{
+    background: rgba(0,0,0,0.75);
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5rem;
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+    background:rebeccapurple;
+    border-radius: 10px;
+    width: 20vw;
+    height: 20vh;
+    font-size: 2rem;
+    transition: all 0.3s ease-in-out;
+    animation: light 3.5s infinite alternate;
+
+}
+
+
+@keyframes light {
+    0%{
+        box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75) ;
+        -webkit-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75) ;
+        -moz-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75) ;  ;
+    }
+    50%{
+        box-shadow: 12px 12px 56px 0px rgba(228, 224, 224, 0.75) ;
+        -webkit-box-shadow: 10px 10px 54px 0px rgba(230, 211, 211, 0.75) ;
+        -moz-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75) ;
+    }
+    100%{
+        box-shadow: 13px 13px 57px 0px rgba(238, 227, 227, 0.75) ;
+        -webkit-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75);
+    }
+}
