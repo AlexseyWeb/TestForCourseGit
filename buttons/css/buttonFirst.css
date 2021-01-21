@@ -30,6 +30,8 @@ a{
     text-decoration: none;
     color: rgb(245, 241, 241);
     background:rebeccapurple;
+    background-clip: border-box;
+    border: 2px dashed #fff;
     border-radius: 10px;
     width: 20vw;
     height: 20vh;
@@ -78,6 +80,10 @@ main{
 }
 section{
     background-color: var(--main-bg);
-
+    border: 5px dashed #fff;
+    background-clip: content-box;
+    padding:10px;
+    margin: 0 auto;
+    text-align: center;
 
 }
