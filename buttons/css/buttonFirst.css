@@ -29,7 +29,7 @@ a{
     border-radius: 10px;
     width: 20vw;
     height: 20vh;
-    font-size: 2rem;
+    font-size: calc(0.575em + 1vw);
     transition: all 0.1s ease-in-out;
     animation: light 3.5s infinite alternate;
 
