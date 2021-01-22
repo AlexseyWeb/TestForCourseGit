@@ -12,6 +12,9 @@
     padding: 0;
 }
 
+h1{
+    margin-bottom: 2rem;
+}
 body{
     display: flex;
     justify-content: center;
@@ -30,26 +33,45 @@ a{
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: 5rem;
-    margin-right: 2rem;
+
     text-decoration: none;
     color: rgb(246, 250, 252);
     background:rgb(32, 10, 10);
     background-clip: border-box;
     border: 2px dashed rgb(59, 38, 38);
-    border-radius: 10px;
+
     width: 20vw;
     height: 20vh;
     font-size: calc(0.575em + 1vw);
     transition: all 0.1s ease-in-out;
-    animation: light 3.5s infinite alternate;
+    border-radius: 50%;
+    width: 268.8px;
+    height: 268.8px;
+    position:relative;
+
 
 }
 a:hover{
     transition: background 1.1s ease-in-out;
     background-color: cornflowerblue;
+
 }
 
+a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 268.8px;
+    height: 268.8px;
+    top: 2.6px;
+    left: -0.4px;
+    border-radius: 50%;
+    transition: inherit;
+    box-shadow: -14.56px -14.56px 0 rgb(255 0 0 / 30%), -20.384px 0 0 rgb(255 170 0 / 30%), -14.56px 14.56px 0 rgb(170 255 0 / 30%), 0 20.384px 0 rgb(0 255 0 / 30%), 14.56px 14.56px 0 rgb(0 255 170 / 30%), 20.384px 0 0 rgb(0 170 255 / 30%), 14.56px -14.56px 0 rgb(0 0 255 / 30%), 0 -20.384px 0 rgb(170 0 255 / 30%);
+    animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate{to{transform:rotate(1turn)}}
 
 @keyframes light {
     0%{
