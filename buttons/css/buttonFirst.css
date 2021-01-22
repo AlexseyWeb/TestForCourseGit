@@ -18,6 +18,11 @@ body{
     align-items: center;
     flex-direction: column;
     background: rgba(0,0,0,0.75);
+    text-shadow: 0 0 4px #ccc,
+             0 -5px 4px #ff3,
+             2px -10px 6px #fd3,
+             -2px -15px 11px #f80,
+             2px -18px 18px #f20;
 }
 
 a{
@@ -28,10 +33,10 @@ a{
     margin-top: 5rem;
     margin-right: 2rem;
     text-decoration: none;
-    color: rgb(245, 241, 241);
-    background:rebeccapurple;
+    color: rgb(246, 250, 252);
+    background:rgb(32, 10, 10);
     background-clip: border-box;
-    border: 2px dashed #fff;
+    border: 2px dashed rgb(59, 38, 38);
     border-radius: 10px;
     width: 20vw;
     height: 20vh;
@@ -48,19 +53,19 @@ a:hover{
 
 @keyframes light {
     0%{
-        box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75) ;
-        -webkit-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75) ;
-        -moz-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75) ;  ;
+        box-shadow: 10px 10px 54px 0px rgba(31, 117, 175, 0.75) ;
+        -webkit-box-shadow: 10px 10px 54px 0pxrgba(31, 117, 175, 0.75) ;
+        -moz-box-shadow: 10px 10px 54px 0px rgba(31, 117, 175, 0.75)  ;
     }
     50%{
-        box-shadow: 12px 12px 56px 0px rgba(228, 224, 224, 0.75) ;
-        -webkit-box-shadow: 10px 10px 54px 0px rgba(230, 211, 211, 0.75) ;
-        -moz-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75) ;
+        box-shadow: 12px 12px 56px 0px rgba(121, 7, 7, 0.75) ;
+        -webkit-box-shadow: 10px 10px 54px 0px rgba(95, 5, 5, 0.75) ;
+        -moz-box-shadow: 10px 10px 54px 0px rgba(97, 10, 10, 0.75) ;
     }
     100%{
-        box-shadow: 13px 13px 57px 0px rgba(238, 227, 227, 0.75) ;
-        -webkit-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 10px 10px 54px 0px rgba(0,0,0,0.75);
+        box-shadow: 13px 13px 57px 0px rgba(190, 9, 9, 0.75) ;
+        -webkit-box-shadow: 10px 10px 54px 0px rgba(201, 13, 13, 0.75);
+        -moz-box-shadow: 10px 10px 54px 0px rgba(189, 13, 13, 0.75);
     }
 }
 
