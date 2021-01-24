@@ -20,7 +20,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: rgba(0,0,0,0.75);
+    background: linear-gradient(to right, rgba(39, 119, 7, 0.733), rgba(221, 218, 11, 0.6));
     font-size: calc(1rem + .5vw);
   line-height: calc(1.2rem + .5vw);
     /* text-shadow: 0 0 4px #ccc,
@@ -29,7 +29,7 @@ body{
              -2px -15px 11px #f80,
              2px -18px 18px #f20; */
     overflow-x: hidden;
-color: #fff;
+color: rgb(20, 19, 19);
 }
 
 a{
@@ -57,7 +57,7 @@ a{
 }
 a:hover{
     transition: background 1.1s ease-in-out;
-    background-color: rgba(12, 12, 12, 0.527);
+    background: rgba(12, 12, 12, 0.527);
 
 }
 
